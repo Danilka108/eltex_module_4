@@ -18,10 +18,10 @@ switch1> wr
 vIOS-L2> enable
 vIOS-L2> config terminal
 vIOS-L2(config)> hostname switch2
-switch1(config)> spanning-tree mode pvst
-switch1(config)> spanning-tree vlan 1 root secondary
-switch1(config)> end
-switch1> wr
+switch2(config)> spanning-tree mode pvst
+switch2(config)> spanning-tree vlan 1 root secondary
+switch2(config)> end
+switch2> wr
 ```
 
 ### Switch 3
@@ -31,7 +31,7 @@ vIOS-L2> config terminal
 vIOS-L2(config)> hostname switch3
 switch3(config)> spanning-tree mode pvst
 switch3(config)> end
-switch_name> wr
+switch3> wr
 ```
 
 версия с измененной стоимостью
