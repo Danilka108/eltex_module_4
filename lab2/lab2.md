@@ -107,8 +107,8 @@ PC6> save config
 ```
 
 ## Топология сети
-![topology](images/topology1.png)
-![topology](images/topology2.png)
+![topology](images/lab2_topology1.png)
+![topology](images/lab2_topology2.png)
 
 ## STP пакеты
 ### Swtich 1 eth 0 <-> switch 2 eth 0
